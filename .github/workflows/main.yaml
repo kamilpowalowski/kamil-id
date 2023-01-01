@@ -1,0 +1,22 @@
+on: [push]
+
+jobs:
+  weblog_import:
+    runs-on: ubuntu-latest
+    name: weblog.lol
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: Replace image paths
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "/weblog"
+          replace: "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref }}/weblog"
+          regex: false
+          include: "**/*.md"
+      - id: weblog_import
+        uses: neatnik/weblog.lol@v1
+        env:
+          ADDRESS: kamil
+          WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
