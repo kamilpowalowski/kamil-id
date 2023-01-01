@@ -8,7 +8,7 @@ Tags: Swift Wombat, Text, SwiftUI, String, Date, WidgetKit
 
 ![How to display a date using Text view](/weblog/swiftwombat/covers/how_to_display_a_date_using_text_view.png)
 
-SwiftUI has a very convenient way to display dates. It provides a special [Text initializer](https://developer.apple.com/documentation/swiftui/text/init%28_:style:%29) that receives date and style. You can pick from five available [DateStyles](https://developer.apple.com/documentation/swiftui/text/datestyle): `time`, `date`, `relative`, `offset`, and `timer`. Each one displays time in a different format.
+SwiftUI has a very convenient way to display dates. It provides a special [Text initializer](https://developer.apple.com/documentation/swiftui/text/init%28_:style:%29) that receives date and style. You can pick from a list of five available [DateStyles](https://developer.apple.com/documentation/swiftui/text/datestyle): `time`, `date`, `relative`, `offset`, and `timer`. Each one displays time in a different format.
 
 ```swift
 let now = Date() // Dec 6, 2020 at 2:51 PM

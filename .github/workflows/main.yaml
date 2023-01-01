@@ -12,7 +12,7 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@v2
         with:
           find: "/weblog"
-          replace: "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref }}/weblog"
+          replace: "https://cdn.githubraw.com/${{ github.repository }}/${{ github.ref }}/weblog"
           regex: false
           include: "**/*.md"
       - id: weblog_import
