@@ -74,6 +74,6 @@ Unfortunately, not all DateStyles are localized. Offset and relative always disp
 
 ---
 
-![Text and Date example taken in Xcode Playground](/weblog/swiftwombat/images/text_view_and_date_example.png)
+![Text and Date example taken in Xcode Playground](/weblog/swiftwombat/images/1/text_view_and_date_example.png)
 
 Want to test it yourself? Download this [Xcode Playground](https://github.com/kamilpowalowski/swiftwombat-projects/tree/main/TextWithDate/).
