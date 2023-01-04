@@ -1,7 +1,7 @@
 ---
 Date: 2020-12-06 16:20
 Location: /swiftwombat/how-to-display-a-date-using-text-view
-Tags: Swift Wombat, Text, SwiftUI, String, Date, WidgetKit
+Tags: Swift Wombat, SwiftUI, Text, String, Date, WidgetKit
 ---
 
 # How to display a date using Text view
