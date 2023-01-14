@@ -19,7 +19,7 @@ So what is this view with the strange name `ZStack`? It's a view that arranges i
 ```swift
 ZStack {
     Circle()
-    	.foregroundColor(.green)
+        .foregroundColor(.green)
     Text("Swift Wombat")
 }
 ```
